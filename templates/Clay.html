@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Clay Soil</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/css/Clay.css" />
+		<noscript><link rel="stylesheet" href="static/css/noscript.css" /></noscript>
+		<style>
+            /* Additional CSS styles */
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px; /* Add some margin */
+            }
+            th, td {
+                border: 1px solid #ff0000;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background-color: #000000; /* Light gray background for table header */
+                font-weight: bold; /* Make headings bold */
+            }
+        </style>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Soil Type : Clay Soil </h1>
+					 <table>
+						<thead>
+							<tr>
+								<th>Crop can plant in Clay soil</th>
+								<th>Prediction</th>
+								<th>Accuracy (%)</th> <!-- New column for accuracy -->
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Virginia, Wheat, Jowar, Millets, Linseed, Castor, Sunflower</td>
+								<td>Good</td>
+								<td>92</td> <!-- Dynamic accuracy value -->
+							</tr>
+							<!-- Add more rows for other crops and predictions -->
+						</tbody>
+					</table>
+				</header>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>

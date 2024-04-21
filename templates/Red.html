@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Red Soil</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/css/Red.css" />
+		<noscript><link rel="stylesheet" href="static/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Soil Type : Red Soil </h1>
+							 <table>
+								<thead>
+									<tr>
+										<th>Crop can plant in Clay soil</th>
+										<th>Prediction</th>
+										<th>Accuracy (%)</th> <!-- New column for accuracy -->
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Cotton,Wheat,Pulses,Millets,OilSeeds,Potatoes</td>
+										<td>Good</td>
+										<td>92</td> 
+									</tr>
+									
+								</tbody>
+							</table>
+						</header>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
