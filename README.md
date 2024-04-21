@@ -41,7 +41,7 @@ For more detailed information, refer to the documentation provided in the `/docs
 
 ### Drive Link full project link
 
-[Soil Classification Drive Link](https://drive.google.com/file/d/12DvwGnEt3R1PPl-g12FlJ08lIkytKIoW/view?usp=sharing))
+[Soil Classification Drive Link](https://drive.google.com/file/d/12DvwGnEt3R1PPl-g12FlJ08lIkytKIoW/view?usp=sharing)
 
 Feel free to reach out for any queries or contributions!
 
